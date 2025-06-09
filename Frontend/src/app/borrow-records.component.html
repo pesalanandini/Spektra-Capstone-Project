@@ -1,0 +1,47 @@
+<div class="borrow-records-wrapper">
+  <h2 class="borrow-records-title">Borrow Records</h2>
+
+  <div *ngIf="loading()">Loading records...</div>
+  <div *ngIf="error()" class="error-message">{{ error() }}</div>
+
+  <table *ngIf="records().length > 0" class="records-table">
+    <thead>
+      <tr>
+        <th>User</th>
+        <th>Email</th>
+        <th>Book Title</th>
+        <th>Author</th>
+        <th>Borrowed At</th>
+        <th>Due Date</th>
+        <th>Status</th>
+        <th>Returned At</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let r of records()">
+        <td>{{ r.user.fullName }}</td>
+        <td>{{ r.user.email }}</td>
+        <td>{{ r.book.title }}</td>
+        <td>{{ r.book.author }}</td>
+        <td>{{ r.borrowedAt | date:'mediumDate' }}</td>
+        <td>{{ r.dueDate | date:'mediumDate' }}</td>
+        <td>
+          <span
+            [ngClass]="{
+              'status-returned': isReturned(r),
+              'status-overdue': isOverdue(r) && !isReturned(r),
+              'status-pending': !isReturned(r) && !isOverdue(r)
+            }"
+          >
+            {{ isReturned(r) ? 'Returned' : (isOverdue(r) ? 'Overdue' : 'Pending') }}
+          </span>
+        </td>
+        <td>{{ r.returnedAt ? (r.returnedAt | date:'mediumDate') : 'Not Returned' }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="!loading() && records().length === 0" class="no-records">
+    No borrow records found.
+  </div>
+</div>

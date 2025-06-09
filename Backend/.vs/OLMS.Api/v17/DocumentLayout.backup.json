@@ -1,0 +1,461 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\models\\dtos\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\models\\dtos\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\data\\olmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\data\\olmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\models\\fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\models\\fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\models\\dtos\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\models\\dtos\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\models\\reportresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\models\\reportresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526154306_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OLMS.Api\\Migrations\\20250526154306_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526153617_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OLMS.Api\\Migrations\\20250526153617_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526092315_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OLMS.Api\\Migrations\\20250526092315_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\olms.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\olms.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526062355_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OLMS.Api\\Migrations\\20250526062355_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526055504_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OLMS.Api\\Migrations\\20250526055504_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526055212_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OLMS.Api\\Migrations\\20250526055212_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|c:\\users\\sahit\\source\\repos\\olms.api\\olms.api\\migrations\\20250526154423_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}|OLMS.Api\\OLMS.Api.csproj|solutionrelative:olms.api\\migrations\\20250526154423_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "OLMS.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:27:16.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\DTOs\\BookUpdateDto.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Models\\DTOs\\BookUpdateDto.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\DTOs\\BookUpdateDto.cs",
+              "RelativeToolTip": "OLMS.Api\\Models\\DTOs\\BookUpdateDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T06:17:42.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BorrowRecord.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\BorrowRecord.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Models\\BorrowRecord.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\BorrowRecord.cs",
+              "RelativeToolTip": "OLMS.Api\\Models\\BorrowRecord.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:20:06.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Program.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Program.cs",
+              "RelativeToolTip": "OLMS.Api\\Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:28:21.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "OLMS.Api\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:28:02.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\AuthService.cs",
+              "RelativeToolTip": "OLMS.Api\\Services\\AuthService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAEwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:26:03.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Controllers\\BookController.cs",
+              "RelativeToolTip": "OLMS.Api\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAqwCIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:27:38.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\Book.cs",
+              "RelativeToolTip": "OLMS.Api\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:19:47.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OLMSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Data\\OLMSDbContext.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Data\\OLMSDbContext.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Data\\OLMSDbContext.cs",
+              "RelativeToolTip": "OLMS.Api\\Data\\OLMSDbContext.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:22:17.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\BookService.cs",
+              "RelativeToolTip": "OLMS.Api\\Services\\BookService.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwIMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:25:24.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Services\\IBookService.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\IBookService.cs",
+              "RelativeToolTip": "OLMS.Api\\Services\\IBookService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:25:02.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\EmailService.cs",
+              "RelativeToolTip": "OLMS.Api\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:26:55.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "OLMS.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\appsettings.json",
+              "RelativeToolTip": "OLMS.Api\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T05:31:57.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Fine.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\Fine.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Models\\Fine.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\Fine.cs",
+              "RelativeToolTip": "OLMS.Api\\Models\\Fine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:20:30.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\User.cs",
+              "RelativeToolTip": "OLMS.Api\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:19:24.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\IAuthService.cs",
+              "RelativeToolTip": "OLMS.Api\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:25:44.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\DTOs\\BookCreateDto.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Models\\DTOs\\BookCreateDto.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\DTOs\\BookCreateDto.cs",
+              "RelativeToolTip": "OLMS.Api\\Models\\DTOs\\BookCreateDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T06:16:31.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReportResult.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\ReportResult.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Models\\ReportResult.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Models\\ReportResult.cs",
+              "RelativeToolTip": "OLMS.Api\\Models\\ReportResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:21:40.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Services\\IEmailService.cs",
+              "RelativeToolTip": "OLMS.Api\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:26:28.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250526154423_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526154423_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Migrations\\20250526154423_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526154423_InitialCreate.cs",
+              "RelativeToolTip": "OLMS.Api\\Migrations\\20250526154423_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:44:23.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250526154306_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526154306_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Migrations\\20250526154306_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526154306_InitialCreate.cs",
+              "RelativeToolTip": "OLMS.Api\\Migrations\\20250526154306_InitialCreate.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:43:06.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250526153617_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526153617_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Migrations\\20250526153617_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526153617_InitialCreate.cs",
+              "RelativeToolTip": "OLMS.Api\\Migrations\\20250526153617_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:36:17.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250526092315_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526092315_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Migrations\\20250526092315_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526092315_InitialCreate.cs",
+              "RelativeToolTip": "OLMS.Api\\Migrations\\20250526092315_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T09:23:15.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OLMS.Api.http",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\OLMS.Api.http",
+              "RelativeDocumentMoniker": "OLMS.Api\\OLMS.Api.http",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\OLMS.Api.http",
+              "RelativeToolTip": "OLMS.Api\\OLMS.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-26T07:10:44.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250526062355_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526062355_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Migrations\\20250526062355_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526062355_InitialCreate.cs",
+              "RelativeToolTip": "OLMS.Api\\Migrations\\20250526062355_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T06:23:55.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250526055504_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526055504_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Migrations\\20250526055504_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526055504_InitialCreate.cs",
+              "RelativeToolTip": "OLMS.Api\\Migrations\\20250526055504_InitialCreate.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:55:04.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250526055212_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526055212_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OLMS.Api\\Migrations\\20250526055212_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sahit\\source\\repos\\OLMS.Api\\OLMS.Api\\Migrations\\20250526055212_InitialCreate.cs",
+              "RelativeToolTip": "OLMS.Api\\Migrations\\20250526055212_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:52:12.462Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

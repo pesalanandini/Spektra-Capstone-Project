@@ -1,0 +1,37 @@
+<div class="confirm-email-wrapper">
+  <div class="confirm-email-container">
+    <h2>Email Confirmation</h2>
+
+    <!-- Loading state -->
+    <div *ngIf="loading" class="confirm-loading">
+      Confirming your email, please wait...
+    </div>
+
+    <!-- Success message -->
+    <div *ngIf="successMessage" class="confirm-success">
+      {{ successMessage }}
+    </div>
+
+    <!-- Error message -->
+    <div *ngIf="errorMessage" class="confirm-error">
+      {{ errorMessage }}
+    </div>
+
+    <!-- Go to login button -->
+    <button *ngIf="successMessage" (click)="goToLogin()">Go to Login</button>
+
+    <!-- Manual token form -->
+    <form *ngIf="!loading && !successMessage" (ngSubmit)="onManualConfirm()">
+      <label for="token">Enter Confirmation Token:</label>
+      <input
+        id="token"
+        type="text"
+        [(ngModel)]="manualToken"
+        name="token"
+        required
+        placeholder="Enter your token"
+      />
+      <button type="submit">Confirm Email</button>
+    </form>
+  </div>
+</div>

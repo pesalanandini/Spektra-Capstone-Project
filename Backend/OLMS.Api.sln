@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OLMS.Api", "OLMS.Api\OLMS.Api.csproj", "{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0B3180-70DB-4A15-9CEF-3325AB124D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0B384BD-21BF-45E5-A8C6-29D88B590BD9}
+	EndGlobalSection
+EndGlobal

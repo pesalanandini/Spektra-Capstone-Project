@@ -1,0 +1,27 @@
+<div class="auth-container">
+  <h2>Login</h2>
+  <div class="auth-form">
+    <select [value]="role" (change)="onInput('role', $event)">
+      <option value="user">User</option>
+      <option value="admin">Admin</option>
+    </select>
+
+    <input type="email" placeholder="Email" [value]="email" (input)="onInput('email', $event)" />
+    <input type="password" placeholder="Password" [value]="password" (input)="onInput('password', $event)" />
+
+    <div class="auth-error" *ngIf="error">{{ error }}</div>
+    
+    <button (click)="login()">Login</button>
+    
+    <div class="auth-link">
+      Don't have an account? <a href="/register">Register</a>
+    </div>
+    <div class="auth-link">
+      <a href="/forgot-password">Forgot Password?</a> | <a href="/reset-password">Reset Password</a>
+    </div>
+    <div class="auth-link" style="text-align:center; margin-top:1rem;">
+  <a href="/confirm-email">Go to Confirm Email</a>
+</div>
+  </div>
+</div>
+

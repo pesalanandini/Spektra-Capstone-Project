@@ -1,0 +1,60 @@
+<div class="admin-books-container">
+  <h2 class="admin-title">Admin: Manage Books</h2>
+  <button class="add-btn" (click)="openAdd()">Add Book</button>
+
+  <table *ngIf="books.length > 0" class="admin-books-table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of books; let i = index">
+        <td>{{ book.title }}</td>
+        <td>{{ book.author }}</td>
+        <td>{{ book.genre }}</td>
+        <td>
+          <button class="edit-btn" (click)="openEdit(i)">Edit</button>
+          <button class="delete-btn" (click)="deleteBook(i)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="no-books-message" *ngIf="books.length === 0">
+    No books available. Please add a book.
+  </div>
+
+  <!-- Add Form -->
+  <div class="admin-form" *ngIf="showAdd">
+    <h3>Add Book</h3>
+    <input placeholder="Title" [value]="form.title" (input)="onInput('title', $event)" />
+    <input placeholder="Author" [value]="form.author" (input)="onInput('author', $event)" />
+    <input placeholder="Genre" [value]="form.genre" (input)="onInput('genre', $event)" />
+    <input placeholder="Description" [value]="form.description" (input)="onInput('description', $event)" />
+    <input placeholder="Cover Image URL" [value]="form.coverImageUrl" (input)="onInput('coverImageUrl', $event)" />
+    <input placeholder="PDF URL" [value]="form.pdfUrl" (input)="onInput('pdfUrl', $event)" />
+    <input type="number" min="1" placeholder="Total Copies" [value]="form.totalCopies" (input)="onInput('totalCopies', $event)" />
+    <button (click)="saveAdd()">Save</button>
+    <button (click)="cancel()">Cancel</button>
+    <div class="error" *ngIf="error">{{ error }}</div>
+  </div>
+
+  <!-- Edit Form -->
+  <div class="admin-form" *ngIf="showEdit">
+    <h3>Edit Book</h3>
+    <input placeholder="Title" [value]="form.title" (input)="onInput('title', $event)" />
+    <input placeholder="Author" [value]="form.author" (input)="onInput('author', $event)" />
+    <input placeholder="Genre" [value]="form.genre" (input)="onInput('genre', $event)" />
+    <input placeholder="Description" [value]="form.description" (input)="onInput('description', $event)" />
+    <input placeholder="Cover Image URL" [value]="form.coverImageUrl" (input)="onInput('coverImageUrl', $event)" />
+    <input placeholder="PDF URL" [value]="form.pdfUrl" (input)="onInput('pdfUrl', $event)" />
+    <input type="number" min="1" placeholder="Total Copies" [value]="form.totalCopies" (input)="onInput('totalCopies', $event)" />
+    <button (click)="saveEdit()">Save</button>
+    <button (click)="cancel()">Cancel</button>
+    <div class="error" *ngIf="error">{{ error }}</div>
+  </div>
+</div>

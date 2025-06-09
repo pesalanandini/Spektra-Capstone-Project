@@ -1,0 +1,111 @@
+<div class="app-container d-flex flex-column min-vh-100">
+  
+  <!-- Header -->
+  <app-header class="w-100"></app-header>
+
+  <!-- Main Content -->
+  <main class="flex-grow-1">
+    <router-outlet></router-outlet>
+
+    <!-- Optional Home Page Section -->
+    <section class="recommend-section" *ngIf="isHomePage">
+      <h1 class="recommend-title">Yet to be Released</h1>
+      <div class="recommend-cards">
+      <div class="recommend-card">
+        <img src="https://m.media-amazon.com/images/I/61zKxd-lL0L._SL1500_.jpg" alt="Book 1" class="recommend-img" />
+        <div class="recommend-info">
+          <div class="recommend-book-title">The Quantum Library</div>
+          <div class="recommend-author">by A. I. Future</div>
+          <div class="recommend-desc">A thrilling journey into the future of digital reading and AI-powered libraries.</div>
+        </div>
+      </div>
+      <div class="recommend-card">
+        <img src="https://m.media-amazon.com/images/I/81Gnz8nvzVL._SL1500_.jpg" alt="Book 2" class="recommend-img" />
+        <div class="recommend-info">
+          <div class="recommend-book-title">Pages of Tomorrow</div>
+          <div class="recommend-author">by N. Vision</div>
+          <div class="recommend-desc">Explore the evolution of books and the next chapter in library technology.</div>
+        </div>
+      </div>
+      <div class="recommend-card">
+        <img src="https://cdn2.penguin.com.au/covers/400/9780241671108.jpg" alt="Book 3" class="recommend-img" />
+        <div class="recommend-info">
+          <div class="recommend-book-title">Infinite Stories</div>
+          <div class="recommend-author">by Story Weaver</div>
+          <div class="recommend-desc">A collection of never-ending tales for the curious reader, powered by imagination.</div>
+        </div>
+      </div>
+      <div class="recommend-card">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81eB+7+CkUL.jpg" alt="Book 4" class="recommend-img" />
+  <div class="recommend-info">
+    <div class="recommend-book-title">The Silent Patient</div>
+    <div class="recommend-author">by Alex Michaelides</div>
+    <div class="recommend-desc">A psychological thriller about a woman's act of violence against her husband—and the therapist obsessed with her motive.</div>
+  </div>
+</div>
+
+<div class="recommend-card">
+  <img src="https://m.media-amazon.com/images/I/71UwSHSZRnS.jpg" alt="Book 5" class="recommend-img" />
+  <div class="recommend-info">
+    <div class="recommend-book-title">The Midnight Library</div>
+    <div class="recommend-author">by Matt Haig</div>
+    <div class="recommend-desc">Between life and death there is a library, and within that library, the shelves go on forever.</div>
+  </div>
+</div>
+
+<div class="recommend-card">
+  <img src="https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg" alt="Book 6" class="recommend-img" />
+  <div class="recommend-info">
+    <div class="recommend-book-title">Atomic Habits</div>
+    <div class="recommend-author">by James Clear</div>
+    <div class="recommend-desc">An easy & proven way to build good habits & break bad ones for a better everyday life.</div>
+  </div>
+</div>
+<div class="recommend-card">
+  <img src="https://m.media-amazon.com/images/I/91bYsX41DVL.jpg" alt="Book 7" class="recommend-img" />
+  <div class="recommend-info">
+    <div class="recommend-book-title">Deep Work</div>
+    <div class="recommend-author">by Cal Newport</div>
+    <div class="recommend-desc">A guide to focused success in a distracted world—mastering the art of deep, meaningful work.</div>
+  </div>
+</div>
+
+<div class="recommend-card">
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1506026635i/35133922.jpg" alt="Educated Book Cover" class="recommend-img" />
+  <div class="recommend-info">
+    <div class="recommend-book-title">Educated</div>
+    <div class="recommend-author">by Tara Westover</div>
+    <div class="recommend-desc">A memoir about a woman who grew up in a survivalist family and found education as her escape.</div>
+  </div>
+</div>
+
+
+<div class="recommend-card">
+  <img src="https://m.media-amazon.com/images/I/71KilybDOoL.jpg" alt="Book 9" class="recommend-img" />
+  <div class="recommend-info">
+    <div class="recommend-book-title">Where the Crawdads Sing</div>
+    <div class="recommend-author">by Delia Owens</div>
+    <div class="recommend-desc">Part coming-of-age story, part murder mystery—set in the marshes of North Carolina.</div>
+  </div>
+</div>
+
+<div class="recommend-card">
+  <img src="https://m.media-amazon.com/images/I/81wgcld4wxL.jpg" alt="Book 10" class="recommend-img" />
+  <div class="recommend-info">
+    <div class="recommend-book-title">The Subtle Art</div>
+    <div class="recommend-author">by Mark Manson</div>
+    <div class="recommend-desc">A counterintuitive approach to living a good life by caring less about more.</div>
+  </div>
+</div>
+    </div>
+  </section>
+
+    <div class="d-flex">
+      <app-footer class="w-100"></app-footer>
+    </div>
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zpCNLCrpVCM2OznFvv2XLh5W2LeUACDWyqTYNgqPNsg=",
+  "Source": "OLMS.Api",
+  "BasePath": "_content/OLMS.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

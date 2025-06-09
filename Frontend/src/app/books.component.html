@@ -1,0 +1,47 @@
+<div class="books-wrapper">
+  <div class="books-container">
+    <h2 class="books-title">All Books</h2>
+
+    <div class="books-filters">
+      <input
+        class="books-search"
+        type="text"
+        placeholder="Search by title or author"
+        (input)="onSearchInput($event)"
+      />
+      <input
+        class="books-genre"
+        type="text"
+        placeholder="Filter by genre"
+        (input)="onGenreInput($event)"
+      />
+    </div>
+
+    <div *ngIf="loading()" class="books-loading">Loading books...</div>
+    <div *ngIf="error()" class="books-error">{{ error() }}</div>
+
+    <div class="books-list">
+      <div
+        class="book-card"
+        *ngFor="let book of books()"
+        tabindex="0"
+        (click)="viewBook(book)"
+        (keydown.enter)="viewBook(book)"
+      >
+        <img
+          class="book-cover"
+          [src]="book.coverImageUrl || 'https://via.placeholder.com/70x100'"
+          alt="Book Cover"
+        />
+        <div class="book-info">
+          <div class="book-title">{{ book.title }}</div>
+          <div class="book-author">{{ book.author }}</div>
+          <div class="book-genre">{{ book.genre }}</div>
+          <div class="book-desc">{{ book.description }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

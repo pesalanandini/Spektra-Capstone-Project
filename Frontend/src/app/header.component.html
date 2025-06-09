@@ -1,0 +1,20 @@
+<header class="header w-100">
+  <div class="header-content">
+    <div class="logo">
+      <span class="logo-icon">📚</span>
+      <span class="logo-text">Online Library</span>
+    </div>
+    <nav class="nav">
+      <a class="nav-link" href="/" aria-label="Home">Home</a>
+      <a class="nav-link" href="/books" aria-label="Books">Books</a>
+      <a class="nav-link" href="/login" aria-label="Login" *ngIf="!isLoggedIn">Login</a>
+      <a class="nav-link" href="/register" aria-label="Register" *ngIf="!isLoggedIn">Register</a>
+      <a class="nav-link" href="/admin" aria-label="Admin" *ngIf="isAdminUser">Admin</a>
+      <a class="nav-link" href="/borrow-records" aria-label="Records" *ngIf="isAdmin()">Borrow Records</a>
+      <a class="nav-link" href="/admin-fines" aria-label="Fines" *ngIf="isAdmin()">Fines Records</a>
+
+
+      <a class="nav-link" href="#" *ngIf="isLoggedIn" (click)="logout()">Logout</a>
+    </nav>
+  </div>
+</header>

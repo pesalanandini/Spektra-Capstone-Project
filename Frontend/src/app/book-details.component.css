@@ -1,0 +1,90 @@
+.book-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 2rem;
+}
+.book-details-card {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.book-details-cover {
+  width: 140px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #f2f2f2;
+}
+.book-details-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.book-details-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+}
+.book-details-author {
+  font-size: 1.1rem;
+  color: #666;
+}
+.book-details-genre {
+  font-size: 1rem;
+  color: #888;
+}
+.book-details-desc {
+  margin-top: 1rem;
+  color: #444;
+  font-size: 1rem;
+}
+.book-details-loading, .book-details-error {
+  color: #b00;
+  margin-bottom: 1rem;
+}
+.book-details-status {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+.book-details-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+.borrow-btn, .return-btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: #00796b;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.borrow-btn[disabled], .return-btn[disabled] {
+  background: #bdbdbd;
+  cursor: not-allowed;
+}
+.return-btn {
+  background: rgb(217, 69, 69);
+}
+.book-details-borrow-loading {
+  color: #888;
+  margin-top: 0.5rem;
+}
+.book-details-borrow-success {
+  color: #00796b;
+  margin-top: 0.5rem;
+}
+.book-details-borrow-error {
+  color: #b00;
+  margin-top: 0.5rem;
+}

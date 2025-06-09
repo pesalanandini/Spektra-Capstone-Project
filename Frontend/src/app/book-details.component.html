@@ -1,0 +1,31 @@
+<div class="book-details-container">
+  <div class="book-details-loading" [style.display]="loading() ? 'block' : 'none'">Loading...</div>
+  <div class="book-details-error" [style.display]="error() ? 'block' : 'none'">{{ error() }}</div>
+  <div class="book-details-card" [style.display]="book() ? 'flex' : 'none'">
+    <img [src]="book()?.coverImageUrl || 'assets/default-cover.png'" alt="Book cover" class="book-details-cover" />
+    <div class="book-details-info">
+      <div class="book-details-title">{{ book()?.title }}</div>
+      <div class="book-details-author">by {{ book()?.author }}</div>
+      <div class="book-details-genre">{{ book()?.genre }}</div>
+      <div class="book-details-desc">{{ book()?.description }}</div>
+      <div class="book-details-status" [style.display]="book()?.isBorrowed ? 'block' : 'none'">
+        <span [style.color]="book()?.borrowedByMe ? '#00796b' : '#b00'">
+          {{ book()?.borrowedByMe ? 'You have borrowed this book.' : 'Currently borrowed by another user.' }}
+        </span>
+      </div>
+      <div class="book-details-actions">
+        <!-- Borrow button always shown and enabled -->
+        <button class="borrow-btn" (click)="borrowBook()">Borrow</button>
+        <!-- Return button always shown and enabled -->
+        <button class="return-btn" (click)="returnBook()">Return</button>
+      </div>
+      <div class="book-details-borrow-loading" [style.display]="borrowLoading() ? 'block' : 'none'">Processing...</div>
+      <div class="book-details-borrow-success" [style.display]="borrowSuccess() ? 'block' : 'none'">{{ borrowSuccess() }}</div>
+      <div class="book-details-borrow-error" [style.display]="borrowError() ? 'block' : 'none'">{{ borrowError() }}</div>
+      <div *ngIf="book()?.availableCopies !== undefined">
+        Copies Available: {{ book()?.availableCopies }} / {{ book()?.totalCopies }}
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>

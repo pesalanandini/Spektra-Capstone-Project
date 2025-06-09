@@ -1,0 +1,38 @@
+<div class="auth-container">
+  <h2>Register</h2>
+  <div class="auth-form">
+    <input
+      type="email"
+      placeholder="Email"
+      [value]="email"
+      (input)="onInput('email', $event)"
+      (blur)="validateEmail()"
+    />
+    <div class="validation-error" *ngIf="emailError">{{ emailError }}</div>
+
+    <input
+      type="text"
+      placeholder="FullName"
+      [value]="fullName"
+      (input)="onInput('fullName', $event)"
+      (blur)="validateFullName()"
+    />
+    <div class="validation-error" *ngIf="fullNameError">{{ fullNameError }}</div>
+
+    <input
+      type="password"
+      placeholder="Password"
+      [value]="password"
+      (input)="onInput('password', $event)"
+      (blur)="validatePassword()"
+    />
+    <div class="validation-error" *ngIf="passwordError">{{ passwordError }}</div>
+
+    <div class="auth-error" *ngIf="error">{{ error }}</div>
+    <button (click)="register()" [disabled]="!isFormValid()">Register</button>
+
+    <div class="auth-link">
+      Already have an account? <a href="/login">Login</a>
+    </div>
+  </div>
+</div>
